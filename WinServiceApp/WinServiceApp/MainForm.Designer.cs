@@ -262,6 +262,9 @@
             this.Controls.Add(this.ApplySettingsButton);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(801, 543);
+            this.MinimumSize = new System.Drawing.Size(801, 543);
             this.Name = "MainForm";
             this.Text = "MiniTweaker ver 0.1";
             this.groupBox1.ResumeLayout(false);
